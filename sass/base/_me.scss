@@ -1,0 +1,45 @@
+/*
+* Base
+*/
+section.me {
+  margin-top: 100px;
+}
+
+
+hgroup.me {
+  font-family: 'Oswald', Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgba(0,0,0, .2);
+
+  h1 {
+    font-size: 60px;
+    line-height: 52px;
+  }
+  h2 {
+    font-size: 30px;
+    line-height: 30px;
+    color: #428bca;
+  }
+}
+/*
+ * Components
+ */
+.me {
+  &.face {
+    width: 250px;
+    height: 250px;
+    background-size: 250px 250px;
+    margin-top: 10px;
+  }
+  &.nav-circle {
+    margin-top: 2em;
+    text-align: center;
+    a {
+      border: 2px solid #428bca;
+      transition: all .3s linear;
+      &:hover {
+        transform: scale(1.1)
+      }
+    }
+  }
+}
