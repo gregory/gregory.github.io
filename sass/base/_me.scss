@@ -14,7 +14,7 @@ hgroup.me {
 
   h1 {
     font-size: 60px;
-    line-height: 52px;
+    line-height: 65px;
   }
   h2 {
     font-size: 30px;
@@ -39,7 +39,10 @@ hgroup.me {
       border: 2px solid #428bca;
       transition: all .3s linear;
       &:hover {
-        transform: scale(1.1)
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
       }
     }
   }
