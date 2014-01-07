@@ -1,8 +1,7 @@
+[![Analytics](https://ga-beacon.appspot.com/UA-34823890-2/gregory.github.io/readme?pixel)](https://github.com/gregory/gregory.github.io)
 gregory.github.io
 =================
 
 personnal website
 
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/gregory/gregory.github.io/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
